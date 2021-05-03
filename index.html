@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <title>Sistema de cores</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/styleColors.css">
+    <link rel="stylesheet" type="text/css" href="css/styleButtons.css">
+    <link rel="stylesheet" type="text/css" href="css/styleMedia.css">
+
+</head>
+
+<body class="body">
+
+<header>
+    <div class="header">
+        <div>
+            <h1>Switch Colors</h1>
+        </div>
+        <div>
+            <H3>Escolha uma cor!</H3>
+            <div class="buttons">
+                <div class="b bCi" onclick="handleColor('cinza', 'verde')"></div>
+                <div class="b bV" onclick="handleColor('vermelho', 'verde')"></div>
+                <div class="b bL" onclick="handleColor('laranja', 'verde')"></div>
+                <div class="b bA" onclick="handleColor('amarelo', 'verde')"></div>
+                <div class="b bVe" onclick="handleColor('verde', 'verde')"></div>
+                <div class="b bO" onclick="handleColor('oceano', 'verde')"></div>
+                <div class="b bC" onclick="handleColor('ciano', 'verde')"></div>
+                <div class="b bAz" onclick="handleColor('azul', 'verde')"></div>
+                <div class="b bR" onclick="handleColor('rosa', 'verde')"></div>
+                <div class="b bRo" onclick="handleColor('roxo', 'verde')"></div>
+            </div>
+        </div>
+    </div>
+    <div class="bar bar1"></div>
+</header>
+
+<main>
+    <div class="main"></div>
+</main>
+
+<section>
+    <div class="section"></div>
+</section>
+
+<footer>
+    <div class="bar bar2"></div>
+    <div class="footer"></div>
+</footer>
+
+</body>
+
+<script>
+
+    function handleColor(cor1, cor2) {
+
+        const header = document.querySelector('.header');
+        const footer = document.querySelector('.footer');
+        const body = document.querySelector('.body');
+        const main = document.querySelector('.main');
+        const section = document.querySelector('.section');
+        const bar1 = document.querySelector('.bar1');
+        const bar2 = document.querySelector('.bar2');
+
+        header.style.backgroundImage = `linear-gradient(45deg, var(--${cor1}2) 0%,
+    var(--${cor1}3) 50%, var(--${cor1}4) 90%,
+    var(--${cor1}5) 100%)`;
+
+        footer.style.backgroundImage = `linear-gradient(45deg, var(--${cor1}2) 0%,
+    var(--${cor1}3) 50%, var(--${cor1}4) 90%,
+    var(--${cor1}5) 100%)`;
+
+        main.style.backgroundImage = `linear-gradient(45deg, var(--${cor1}4) 0%,
+    var(--${cor1}5) 50%, var(--${cor1}6) 90%,
+    var(--${cor1}7) 100%)`;
+
+        section.style.backgroundImage = `radial-gradient(circle, var(--${cor1}1) 0%,
+    var(--${cor1}2) 50%, var(--${cor1}4) 90%,
+    var(--${cor1}5) 100%)`;
+
+        bar1.style.backgroundImage = `linear-gradient(45deg, var(--${cor1}4) 0%,
+    var(--${cor1}5) 50%, var(--${cor1}6) 90%,
+    var(--${cor1}7) 100%)`;
+
+        bar2.style.backgroundImage = `linear-gradient(45deg, var(--${cor1}4) 0%,
+    var(--${cor1}5) 50%, var(--${cor1}6) 90%,
+    var(--${cor1}7) 100%)`;
+
+        body.style.backgroundImage = `linear-gradient(45deg, var(--${cor1}0) 0%,
+    var(--${cor1}1) 50%, var(--${cor1}2) 90%,
+    var(--${cor1}3) 100%)`;
+
+    }
+
+</script>
+
+</html>
