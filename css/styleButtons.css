@@ -1,0 +1,175 @@
+.b {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.50) 0.25rem 0.5rem 0.5rem;
+}
+
+.bV {
+
+    background: linear-gradient(
+            45deg,
+            var(--vermelho0) 10%,
+            var(--vermelho1) 20%,
+            var(--vermelho2) 30%,
+            var(--vermelho3) 40%,
+            var(--vermelho4) 50%,
+            var(--vermelho5) 60%,
+            var(--vermelho6) 70%,
+            var(--vermelho7) 80%,
+            var(--vermelho8) 90%,
+            var(--vermelho9) 100%);
+}
+
+.bL {
+
+    background: linear-gradient(
+            45deg,
+            var(--laranja0) 10%,
+            var(--laranja2) 20%,
+            var(--laranja2) 30%,
+            var(--laranja3) 40%,
+            var(--laranja4) 50%,
+            var(--laranja5) 60%,
+            var(--laranja6) 70%,
+            var(--laranja7) 80%,
+            var(--laranja8) 90%,
+            var(--laranja9) 100%);
+
+}
+
+.bA {
+
+    background: linear-gradient(
+            45deg,
+            var(--amarelo0) 10%,
+            var(--amarelo1) 20%,
+            var(--amarelo2) 30%,
+            var(--amarelo3) 40%,
+            var(--amarelo4) 50%,
+            var(--amarelo5) 60%,
+            var(--amarelo6) 70%,
+            var(--amarelo7) 80%,
+            var(--amarelo8) 90%,
+            var(--amarelo9) 100%);
+
+}
+
+.bVe {
+
+    background: linear-gradient(
+            45deg,
+            var(--verde0) 10%,
+            var(--verde1) 20%,
+            var(--verde2) 30%,
+            var(--verde3) 40%,
+            var(--verde4) 50%,
+            var(--verde5) 60%,
+            var(--verde6) 70%,
+            var(--verde7) 80%,
+            var(--verde8) 90%,
+            var(--verde9) 100%);
+
+}
+
+.bO {
+
+    background: linear-gradient(
+            45deg,
+            var(--oceano0) 10%,
+            var(--oceano1) 20%,
+            var(--oceano2) 30%,
+            var(--oceano3) 40%,
+            var(--oceano4) 50%,
+            var(--oceano5) 60%,
+            var(--oceano6) 70%,
+            var(--oceano7) 80%,
+            var(--oceano8) 90%,
+            var(--oceano9) 100%);
+
+}
+
+.bC {
+
+    background: linear-gradient(
+            45deg,
+            var(--cinza0) 10%,
+            var(--ciano1) 20%,
+            var(--ciano2) 30%,
+            var(--ciano3) 40%,
+            var(--ciano4) 50%,
+            var(--ciano5) 60%,
+            var(--ciano6) 70%,
+            var(--ciano7) 80%,
+            var(--ciano8) 90%,
+            var(--ciano9) 100%);
+
+}
+
+.bAz {
+
+    background: linear-gradient(
+            45deg,
+            var(--azul0) 10%,
+            var(--azul1) 20%,
+            var(--azul2) 30%,
+            var(--azul3) 40%,
+            var(--azul4) 50%,
+            var(--azul5) 60%,
+            var(--azul6) 70%,
+            var(--azul7) 80%,
+            var(--azul8) 90%,
+            var(--azul9) 100%);
+
+}
+
+.bR {
+
+    background: linear-gradient(
+            45deg,
+            var(--rosa0) 10%,
+            var(--rosa1) 20%,
+            var(--rosa2) 30%,
+            var(--rosa3) 40%,
+            var(--rosa4) 50%,
+            var(--rosa5) 60%,
+            var(--rosa6) 70%,
+            var(--rosa7) 80%,
+            var(--rosa8) 90%,
+            var(--rosa9) 100%);
+
+}
+
+.bRo {
+
+    background: linear-gradient(
+            45deg,
+            var(--roxo0) 10%,
+            var(--roxo1) 20%,
+            var(--roxo2) 30%,
+            var(--roxo3) 40%,
+            var(--roxo4) 50%,
+            var(--roxo5) 60%,
+            var(--roxo6) 70%,
+            var(--roxo7) 80%,
+            var(--roxo8) 90%,
+            var(--roxo9) 100%);
+
+}
+
+.bCi {
+
+    background: linear-gradient(
+            45deg,
+            var(--cinza0) 10%,
+            var(--cinza1) 20%,
+            var(--cinza2) 30%,
+            var(--cinza3) 40%,
+            var(--cinza4) 50%,
+            var(--cinza5) 60%,
+            var(--cinza6) 70%,
+            var(--cinza7) 80%,
+            var(--cinza8) 90%,
+            var(--cinza9) 100%);
+
+}

@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    display: grid;
+    grid-template-columns: [main]2fr [section] 1fr;
+    grid-template-rows: [header]125px [body]auto [footer]125px;
+
+    height: 100vh;
+
+    background:
+            linear-gradient(45deg, var(--cinza0) 0%,
+            var(--cinza1) 50%, var(--cinza2) 90%,
+            var(--cinza3) 100%);
+
+}
+
+header {
+
+    grid-column: 1/3;
+    grid-row: header;
+
+    font-family: 'Comfortaa', cursive;
+
+}
+
+header .header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100%;
+
+    background:
+            linear-gradient(45deg, var(--cinza2) 0%,
+            var(--cinza3) 50%, var(--cinza4) 90%,
+            var(--cinza5) 100%);
+
+}
+
+header .header .buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+header .header div {
+
+    text-align: center;
+
+}
+
+header .header h1 {
+
+    font-family: 'Major Mono Display', monospace;
+    text-decoration: underline;
+
+}
+
+header .header h2 {
+    margin-top: 0.5rem;
+}
+
+header .header h3 {
+    margin-bottom: 0.5rem;
+}
+
+main {
+
+    grid-column-start: main;
+    grid-row: body;
+
+}
+
+main .main {
+
+    height: 85%;
+
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.50) 0 0.5rem 0.5rem;
+
+    background:
+            linear-gradient(45deg, var(--cinza4) 0%,
+            var(--cinza5) 50%, var(--cinza6) 90%,
+            var(--cinza7) 100%);
+
+}
+
+section {
+
+    grid-column: section;
+    grid-row: body;
+
+}
+
+section .section {
+
+    height: 85%;
+
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+
+    border-radius: 12px;
+    box-shadow: var(--cinza6) 0 30px 60px -12px inset, var(--cinza9) 0 18px 36px -18px inset;
+
+    background:
+            radial-gradient(circle, var(--cinza1) 0%,
+            var(--cinza2) 50%, var(--cinza4) 90%,
+            var(--cinza5) 100%);
+
+}
+
+footer {
+
+    grid-column: 1/3;
+    grid-row: footer;
+
+}
+
+footer .footer {
+
+    height: 100%;
+
+    background:
+            linear-gradient(45deg, var(--cinza2) 0%,
+            var(--cinza3) 50%, var(--cinza4) 90%,
+            var(--cinza5) 100%);
+
+}
+
+.bar {
+
+    position: absolute;
+
+    height: 0.75rem;
+    width: 100%;
+
+    background:
+            linear-gradient(45deg, var(--cinza4) 0%,
+            var(--cinza5) 50%, var(--cinza6) 90%,
+            var(--cinza7) 100%);
+
+}
