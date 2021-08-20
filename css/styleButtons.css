@@ -171,5 +171,22 @@
             var(--cinza7) 80%,
             var(--cinza8) 90%,
             var(--cinza9) 100%);
+    
+}
 
+.bFu {
+
+    background: linear-gradient(
+            45deg,
+            var(--fundo0) 10%,
+            var(--fundo1) 20%,
+            var(--fundo2) 30%,
+            var(--fundo3) 40%,
+            var(--fundo4) 50%,
+            var(--fundo5) 60%,
+            var(--fundo6) 70%,
+            var(--fundo7) 80%,
+            var(--fundo8) 90%,
+            var(--fundo9) 100%);
+    
 }
